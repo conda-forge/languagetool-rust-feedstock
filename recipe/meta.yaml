@@ -1,5 +1,5 @@
 {% set name = "languagetool-rust" %}
-{% set version = "1.3.0" %}
+{% set version = "2.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jeertmans/languagetool-rust/archive/v{{ version }}.tar.gz
-  sha256: c7690fe38b0ee55642c13ca2c1c55f4d9ddd27a7a723f544c9ba2883cb1871a5
+  sha256: 8fbd18fd9b6a7e049fec39d9d4ebcc3563ab7779b849ad5aa2df1d737002c30a
 
 build:
   number: 0
